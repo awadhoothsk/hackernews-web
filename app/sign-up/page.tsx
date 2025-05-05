@@ -47,7 +47,7 @@ const SignUpPage = () => {
             setIsLoading(false);
             router.push("/"); // or wherever you want to redirect after signup
           },
-          onError: (ctx) => {
+          onError: (ctx: { error: { message?: string } }) => {
             setIsLoading(false);
             alert(ctx.error.message || "Signup failed. Please try again.");
           },

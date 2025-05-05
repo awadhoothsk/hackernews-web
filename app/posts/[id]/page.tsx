@@ -1,5 +1,5 @@
 import Navbar from "@/components/navigation-bar/NavigationBar";
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 
 type Post = {
   id: string;

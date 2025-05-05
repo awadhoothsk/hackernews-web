@@ -1,6 +1,6 @@
 "use client";
 
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 import { useState } from "react";
 import { MdDelete } from "react-icons/md";
 

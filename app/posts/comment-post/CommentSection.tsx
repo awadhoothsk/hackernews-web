@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import CommentForm from "./CommentForm";
 import CommentList from "./CommentList";
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 
 type Comment = {
   id: string;

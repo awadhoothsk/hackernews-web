@@ -1,6 +1,6 @@
 "use client";
 
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 

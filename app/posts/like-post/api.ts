@@ -1,4 +1,4 @@
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 
 export const likePost = async (postId: string) => {
   const res = await fetch(`${serverUrl}/likes/on/${postId}`, {

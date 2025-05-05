@@ -1,5 +1,5 @@
 // lib/auth.ts
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 import { usernameClient } from "better-auth/client/plugins";
 import { nextCookies } from "better-auth/next-js";
 import { createAuthClient } from "better-auth/react";

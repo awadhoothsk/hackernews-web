@@ -2,7 +2,7 @@
 
 import NavigationBar from "@/components/navigation-bar/NavigationBar";
 import SectionWrapper from "@/components/section-wrapper/page";
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 import { useParams } from "next/navigation";
 import { useEffect, useState, useCallback } from "react";
 

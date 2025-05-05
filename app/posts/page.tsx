@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { LikeButton } from "./like-post/LikeButton";
 import { DeleteButton } from "./delete-post/DeleteButton";
 import { betterAuthClient } from "@/lib/auth";
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 import Link from "next/link";
 
 export interface Post {

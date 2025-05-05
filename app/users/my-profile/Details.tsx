@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 import SectionWrapper from "@/components/section-wrapper/page";
 
 interface Post {

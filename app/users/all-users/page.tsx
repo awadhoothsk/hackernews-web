@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 
 type User = {
   id: string;

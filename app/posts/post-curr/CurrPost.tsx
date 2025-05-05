@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { serverUrl } from "@/enviroment";
+import { serverUrl } from "@/environment";
 import Link from "next/link";
 
 type Post = {
